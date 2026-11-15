@@ -193,7 +193,7 @@ Fora do MVP: equipes de 10, gincana presencial, itens do KOYOTO, voz, plano igre
 ## 15. Personagens bíblicos (estilo e regras)
 
 **Estilo único:** cartoon estilizado, sem realismo, com um **traço de identificação** fácil de reconhecer.
-Todo desenho passa por **revisão doutrinária** antes de entrar no app **[PENDENTE: quem revisa]**.
+Todo desenho passa por **revisão doutrinária** antes de entrar no app **Revisor: o próprio autor, teólogo formado.**.
 
 **Lista:** Adão, Eva, Noé, Abraão, Moisés, Davi, Jesus, os **doze apóstolos**, Paulo, anjos e sombras (demônios).
 
@@ -201,7 +201,8 @@ Todo desenho passa por **revisão doutrinária** antes de entrar no app **[PENDE
 - **Alegre, feliz e sábio**, como um **Mestre** (nos Evangelhos Ele é chamado de "Mestre/Rabi"): sorriso aberto, olhar acolhedor, mãos abertas.
 - Cenas de acolhida (ex.: com as crianças, Marcos 10:14), ensino e cura. Nada de piada ou caricatura que tire o respeito.
 - Sempre o **mesmo desenho** em todo o app (folha de personagem fixa). Revisão doutrinária obrigatória.
-- Interpretação do pedido: "Teachos" foi entendido como "professor/Mestre". **[PENDENTE: confirmar]**
+- Referência de **tom**: a série *The Chosen* (no Brasil, *Os Escolhidos*), em que Jesus é caloroso, alegre e acolhedor.
+  Usar só o clima. **Não copiar o rosto do ator nem imagens da série** (é obra protegida); o nosso Jesus é um desenho original.
 
 ### Os doze apóstolos (Mateus 10:2-4)
 Para crianças, o traço de identificação **evita símbolos de martírio** (facas, serras, lanças).
@@ -223,14 +224,14 @@ Os traços abaixo são sugestões de desenho, sujeitas a revisão.
 | 12 | Judas Iscariote | Tesoureiro; traiu Jesus | Bolsa de moedas, tratado com cuidado **[PENDENTE: decisão]** |
 
 **Pontos a decidir:**
-- Incluir Judas Iscariote como jogável? Sugestão: aparece só na história da traição, tratado com seriedade, não como personagem colecionável.
-- Os apóstolos 9 a 11 têm pouca informação bíblica; vão precisar de traço visual inventado, de forma neutra.
+- **Judas Iscariote (decidido):** aparece só na história da traição, tratado com seriedade, e **não** é personagem colecionável.
+- Os apóstolos 9 a 11 têm pouca informação bíblica; o traço visual deles será **inventado de forma neutra** (decidido).
 - Matias (Atos 1:26), que ocupa o lugar de Judas, pode entrar numa fase posterior.
 
-### Demônios
-- **Sombras abstratas**, nunca assustadoras: névoa escura, sem rosto agressivo, sem sangue ou chifres.
-- Sugestão de mecânica: a **luz do versículo dissolve a sombra** (a criança "vence" lendo ou acertando).
-- Aparecem poucas vezes e em histórias específicas (ex.: tentação no deserto).
+### Demônios (decisão do autor)
+- **Nunca nos jogos.** A criança **não luta contra demônios**.
+- Aparecem **só na parte das histórias** que tratam de libertação ou do tema, como **sombras abstratas**, sem rosto agressivo, sem chifres, sem sangue.
+- Quem age é Jesus (ou o texto bíblico); a criança apenas acompanha a história.
 
 ### Anjos
 - Formas de luz, amigáveis e serenas; mesmo estilo do mundo cartoon.
@@ -262,3 +263,15 @@ para não refazer nada quando chegar a hora do iOS.
 
 **Depois, para a Apple (fase 2):** conta de desenvolvedor Apple, categoria Kids, revisão mais rígida em apps infantis,
 testes em iPhone e iPad. O escopo do MVP da seção 12 continua o mesmo.
+
+## 16. Atualizações recentes
+
+- **Direção de cor da primeira tela:** o fundo D (deserto) agradou, mas a **cor de terra incomodou**.
+  Nova direção: **branco/creme + marrom + desenho** (como a referência favorita, o app de leitura infantil).
+  Esboço: `esbocos/E-branco-e-marrom.png`. As cores creme, marrom e caramelo são sugestões minhas.
+- **Folha de personagem do KOYOTO (v0.1):** `personagens/koyoto-folha-de-personagem.png`
+  (pose base, 8 expressões só pelos olhos, 4 acessórios, cores, proporções e tamanhos). O mascote atual **não foi alterado**.
+- **Logo:** a versão atual é um **esboço**; o autor **não gostou** e ela só será usada para as lojas, então **fica para depois**.
+  Obs.: a mensagem dizia "lobo do Coyoto"; entendi como "logo". **[PENDENTE: confirmar o que incomodou]**
+- **Título do app na loja:** a Play Store e a App Store pedem ícone e imagens próprios; ver seção 14.
+- **Título da série:** o autor chamou de "Os Enviados"; o título no Brasil que conheço é *Os Escolhidos* **[PENDENTE: conferir]**.
