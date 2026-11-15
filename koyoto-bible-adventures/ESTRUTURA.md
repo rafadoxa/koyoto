@@ -23,6 +23,7 @@ Público de apoio: pais (baixam e configuram) e líderes de igreja (gincanas e e
 | Ilustrações | Geradas por IA, estilo cartoon estilizado, sem realismo |
 | Texto bíblico | Ver seção 9 (tradução × paráfrase) **[PENDENTE]** |
 | Tema visual | "Diário do Explorador": arquivos de caso, carimbos, papel (ver seção 7) |
+| Plataformas | **Android e iOS juntos desde a primeira versão** (base única, ver seção 14) |
 
 ## 3. As duas trilhas
 
@@ -185,5 +186,21 @@ Fora do MVP: equipes de 10, gincana presencial, itens do KOYOTO, voz, plano igre
 2. O tema "detetive/explorador" e "Arquivos" está aprovado?
 3. Fundo marrom escuro de "mesa" está bom?
 4. Texto bíblico: paráfrase, tradução licenciada ou domínio público?
-5. Plataforma inicial: Android, iOS ou os dois?
+5. ~~Plataforma inicial~~ → decidido: Android e iOS juntos.
 6. Quem fará a revisão doutrinária do conteúdo?
+
+## 14. Plataformas: Android e iOS
+
+Para lançar nos dois ao mesmo tempo, o caminho é uma **base de código única** (multiplataforma), por exemplo
+Flutter ou React Native, com Rive ou Lottie para animar o KOYOTO. A escolha final da tecnologia fica para a fase de protótipo.
+
+Pontos a confirmar antes de publicar (valores e regras mudam, **conferir nas páginas oficiais**):
+- Conta de desenvolvedor na **Google Play** e na **Apple** (a Apple cobra anuidade; a Google, taxa de cadastro).
+- Apple: categoria **Kids**, política de privacidade e rótulos de privacidade, regras para compra e assinatura.
+- Google Play: **Families Policy** e a declaração de público-alvo.
+- Assinatura Plus nas duas lojas (um serviço como o RevenueCat costuma unificar).
+- Testar em celular e tablet; crianças muitas vezes usam tablet.
+- Jogos em tempo real (duelo, equipes) precisam funcionar igual entre Android e iOS.
+
+**Efeito no cronograma:** lançar nos dois ao mesmo tempo aumenta o trabalho de teste e de aprovação nas lojas
+(a revisão da Apple costuma ser mais rígida em apps infantis). O MVP da seção 12 continua o mesmo.
