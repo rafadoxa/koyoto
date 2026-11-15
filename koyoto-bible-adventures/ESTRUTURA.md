@@ -51,12 +51,13 @@ Público de apoio: pais (baixam e configuram) e líderes de igreja (gincanas e e
 ## 5. Estrutura de telas e fluxo
 
 ```
-Primeira abertura
- ├─ Tela do responsável: idioma, trilha (Exploradores/Desafiantes), aviso de privacidade
- └─ Criança escolhe apelido (lista) e cor do KOYOTO
-
-Abertura (KOYOTO grande, "Oi, KOYOTO")
- └─ "Vamos começar" → KOYOTO encolhe e vai para o canto direito
+Abertura (KOYOTO grande no centro, "Oi, KOYOTO")
+ └─ "Vamos começar" → KOYOTO encolhe, vai para o canto direito e,
+    à esquerda, abre o MENU INICIAL:
+     ├─ ADULTO → painel de pais e líderes (salas, equipes, relatório e Plus)
+     │           (aqui o responsável escolhe idioma, trilha e vê o aviso de privacidade)
+     └─ CRIANÇA → trilhas Exploradores / Desafiantes
+                   └─ Personalizar o KOYOTO (apelido de lista, cor, acessórios)
 
 ESCRITÓRIO (home) — fundo escuro de mesa
  ├─ Carrossel de ARQUIVOS (uma história = um cartão colorido)
@@ -188,6 +189,55 @@ Fora do MVP: equipes de 10, gincana presencial, itens do KOYOTO, voz, plano igre
 4. Texto bíblico: paráfrase, tradução licenciada ou domínio público?
 5. ~~Plataforma inicial~~ → decidido: Android e iOS juntos.
 6. Quem fará a revisão doutrinária do conteúdo?
+
+## 15. Personagens bíblicos (estilo e regras)
+
+**Estilo único:** cartoon estilizado, sem realismo, com um **traço de identificação** fácil de reconhecer.
+Todo desenho passa por **revisão doutrinária** antes de entrar no app **[PENDENTE: quem revisa]**.
+
+**Lista:** Adão, Eva, Noé, Abraão, Moisés, Davi, Jesus, os **doze apóstolos**, Paulo, anjos e sombras (demônios).
+
+### Jesus
+- **Alegre, feliz e sábio**, como um **Mestre** (nos Evangelhos Ele é chamado de "Mestre/Rabi"): sorriso aberto, olhar acolhedor, mãos abertas.
+- Cenas de acolhida (ex.: com as crianças, Marcos 10:14), ensino e cura. Nada de piada ou caricatura que tire o respeito.
+- Sempre o **mesmo desenho** em todo o app (folha de personagem fixa). Revisão doutrinária obrigatória.
+- Interpretação do pedido: "Teachos" foi entendido como "professor/Mestre". **[PENDENTE: confirmar]**
+
+### Os doze apóstolos (Mateus 10:2-4)
+Para crianças, o traço de identificação **evita símbolos de martírio** (facas, serras, lanças).
+Os traços abaixo são sugestões de desenho, sujeitas a revisão.
+
+| # | Apóstolo | Gancho nas Escrituras | Ideia de traço visual |
+|---|---|---|---|
+| 1 | Pedro (Simão) | Pescador; andou sobre as águas | Rede de pesca e chaves |
+| 2 | André | Pescador; trouxe o menino dos pães e peixes (João 6:8-9) | Peixe |
+| 3 | Tiago (filho de Zebedeu) | "Filho do trovão" (Marcos 3:17) | Raio/trovão no manto |
+| 4 | João | "Filho do trovão"; o discípulo amado | Pergaminho e pena |
+| 5 | Filipe | Pergunta sobre os pães (João 6:5-7) | Cesta de pães |
+| 6 | Bartolomeu | Tradicionalmente identificado com Natanael (debaixo da figueira, João 1:48) | Folha de figueira |
+| 7 | Mateus | Era coletor de impostos | Moedas e livro de contas |
+| 8 | Tomé | "Ver para crer" (João 20:24-29) | Lupa ou mão curiosa |
+| 9 | Tiago (filho de Alfeu) | Pouco se sabe; só citado nas listas | A definir |
+| 10 | Tadeu (Judas, não Iscariotes) | Pouco se sabe (João 14:22) | A definir |
+| 11 | Simão, o Zelote | Também chamado Cananeu | A definir |
+| 12 | Judas Iscariote | Tesoureiro; traiu Jesus | Bolsa de moedas, tratado com cuidado **[PENDENTE: decisão]** |
+
+**Pontos a decidir:**
+- Incluir Judas Iscariote como jogável? Sugestão: aparece só na história da traição, tratado com seriedade, não como personagem colecionável.
+- Os apóstolos 9 a 11 têm pouca informação bíblica; vão precisar de traço visual inventado, de forma neutra.
+- Matias (Atos 1:26), que ocupa o lugar de Judas, pode entrar numa fase posterior.
+
+### Demônios
+- **Sombras abstratas**, nunca assustadoras: névoa escura, sem rosto agressivo, sem sangue ou chifres.
+- Sugestão de mecânica: a **luz do versículo dissolve a sombra** (a criança "vence" lendo ou acertando).
+- Aparecem poucas vezes e em histórias específicas (ex.: tentação no deserto).
+
+### Anjos
+- Formas de luz, amigáveis e serenas; mesmo estilo do mundo cartoon.
+
+### Produção das imagens
+- Uma **folha de personagem por figura** (frente, lado, expressões), fixa e reutilizada.
+- Começar por: Davi, Noé, Moisés, Jesus (as 3 histórias do MVP e o personagem central).
 
 ## 14. Plataformas: Android e iOS
 
