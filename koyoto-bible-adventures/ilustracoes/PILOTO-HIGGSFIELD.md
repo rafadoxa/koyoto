@@ -1,8 +1,8 @@
 # Piloto de ilustrações (Higgsfield, 2026-11-15)
 
 Modelo: gpt_image_2_6 (qualidade low, 1k). Custo: 0,25 crédito por imagem (8 imagens = 2 créditos).
-As imagens estão na galeria do Higgsfield da conta do autor. **Ainda não foram baixadas para o repositório**
-(o servidor das imagens está bloqueado na rede da sessão na nuvem). Baixar e salvar nesta pasta.
+As imagens estão na galeria do Higgsfield da conta do autor e também salvas nesta pasta (davi.png, noe.png, moises.png,
+jesus.png, abraao.png, adao-eva.png, anjo.png, fundo-tela.png). `comparativo-piloto.png` mostra todas juntas.
 
 | # | Tema | Proporção | Job ID |
 |---|---|---|---|
@@ -18,3 +18,5 @@ As imagens estão na galeria do Higgsfield da conta do autor. **Ainda não foram
 Estilo base do prompt: cartoon 2D plano, contornos marrom-escuros grossos, formas arredondadas,
 paleta creme e caramelo com toques de laranja e verde-petróleo, fundo em camadas de papel recortado, sem texto.
 Todas as imagens exigem revisão doutrinária do autor antes de entrar no app.
+
+Observação: na cena de Adão e Eva a IA incluiu a serpente e a maçã (queda). Se a intenção for só o Jardim, refazer sem eles.
